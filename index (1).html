@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width="", initial-scale=1.0">
+    <title>aulinha</title>
+</head>
+<body>
+
+    <header>
+        <h1 class="titulo-header">Nome do site</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#" class="infos">Menu</a>
+                    <a href="#" class="infos">Produtos</a>
+                    <a href="#" class="infos">Pedidos</a>
+                    <a href="#" class="infos">teste4</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <div>
+        <div>
+            <ul class="seletor">
+                <li><a href="#" id="rpsacc" onclick="checar('rpsacc')" class="caixa-seletor">Roupas e acessórios</li>
+                <li><a href="#" id="prdts" onclick="checar('prdts')"" class="caixa-seletor">Produtos de cuidado pessoal</li>
+                <li><a href="#" id="cs" onclick="checar('cs')"" class="caixa-seletor">Para a casa</li>
+                <li><a href="#" id="tiv" onclick="checar('tiv')"" class="caixa-seletor">TI verde</li>
+            </ul>
+        </div>
+            <div class="icons">
+                <a  class="fa-solid fa-cart-shopping"  href="#" id="icon-carrinho" onclick="abrirCarrinho('carrinho')"></a>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="side-carrinho" id="carrinho" style="visibility: hidden">
+        <h1>Carrinho</h1>
+                <ul id="carrinho-produtos"></ul>
+                    <li class="produto-carrinho">
+                        <div>
+                            <img src="oardefault.jpg" alt="teste" class="img-carrinho">
+                            <a href="#" class="remover">Remover do Carrinho</a>
+                            <div><h5>teste</h5></div>
+                            <div style="float: left;">
+                                <div style="display: block;">
+                                    <div class="qnt-carinho" style="background-color:blue">
+                                        <button>-</button>
+                                        <span>QNtd</span>
+                                        <button>+</button>
+                                    </div>
+                                    <span>Total: </span>
+                                </div>   
+                            </div> 
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <div id="cards-produtos">
+
+
+
+
+        <ul id="cards-produtos">
+
+        </ul>
+
+    </div>
+
+
+ 
+
+
+
+   
+
+
+
+
+
+
+        <!-- <ul id="">
+            <li class="card-produto">
+                <h1 class="titulo-produto">Titulo</h1>
+                <div class="compra">
+                    <img src="aaa94be73357e4f635dab6bffabd4615.jpg" alt="teste" class="imgs-produto-loja">
+                    <div class="desc-produto">
+                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum consectetur sed labore pariatur excepturi impedit? Quia, sunt debitis. Dicta nostrum repellat ab consectetur repellendus quasi facere maxime error laudantium accusantium?</p>
+                        <h4>Tipo: Exemplo</h4>
+                        <div class="qnt">
+                            <h3>50.90R$</h3>
+                            <a class="colocar-carrinho" href="#">Colocar no carrinho</a>
+                        </div>    
+                    </div>
+                </div>
+            </li>
+        </ul> -->
+
+
+
+
+
+    <!-- 
+    modelo base para imagens
+    
+    <div id="cards-produtos">
+        <ul>
+            <li class="card-produto">
+                <h1 class="titulo-produto">Titulo</h1>
+                <div class="compra">
+                    <img src="" alt="teste" class="imgs-produto-loja">
+                    <div>
+                        <p class="desc-produto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum consectetur sed labore pariatur excepturi impedit? Quia, sunt debitis. Dicta nostrum repellat ab consectetur repellendus quasi facere maxime error laudantium accusantium?</p>
+                        <div class="qnt-carrinho">
+                            <input type="number" name="quanti" id="qntd" class="input-qntd">
+                            <a class="colocar-carrinho" href="#">Colocar no carrinho</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    -->
+
+
+
+
+
+
+    <footer>
+        <p>© 2025 ZettaLab - Todos os direitos</p>
+    </footer>
+
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" /></body>
+</html>
