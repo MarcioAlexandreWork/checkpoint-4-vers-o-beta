@@ -14,8 +14,13 @@ body{
 header{
     background-color: rgb(4, 94, 197);
     padding:1rem 0;
-    color: rgb(250, 234, 234);
+
 }
+
+header ul{
+    justify-items: center;
+}
+
 
 
 li{
@@ -47,7 +52,7 @@ button{
 .titulo-header{
     align-items: left;
     padding-left: 25px;
-    
+    color: rgb(250, 234, 234);
 }
 
 .itens-li-header{
@@ -61,7 +66,7 @@ button{
     padding-top: 10px;
     padding-left: 25px;
     font-size: 25px;
-    margin-top: 25px;
+    margin-bottom: px;
     width:50px;
     height: 50px;
     background-color: white;
@@ -69,6 +74,7 @@ button{
     box-shadow: 5px 5px 10px 5px;
     border-radius: 5%;
     margin-right: 20px;
+    right:0;
 }
 
 
@@ -77,6 +83,7 @@ button{
     color: rgb(250, 234, 234);
     font-size: 20px;
     padding-right: 2rem;
+    
 
 }
 
@@ -122,7 +129,9 @@ button{
     max-width: fit-conten;
     margin-right: 20px;
     margin-bottom: 50px;
-    margin-left: 20px;
+    
+    justify-self: center;
+    
 }
 
 
@@ -187,13 +196,15 @@ button{
     background-color: rgb(255, 252, 247);
     justify-self: right;
     justify-items: center;
-    width: 700px;
+    width: 500px;
     min-height: 100%;
     border-radius: 5px;
     position: absolute;
     right: 0;
-    left:0;
+    visibility:visible;
     box-shadow: 5px 5px 20px 5px;
+
+    
 }
 
 
